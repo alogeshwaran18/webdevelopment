@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" >
+    <title>Settings</title>
+</head>
+<body>
+   <!---- heading section at top-------> 
+    <header>
+        <h1>Settings</h1>
+    </header>
+    <main>
+
+        <section id="security-privacy">
+            <h2>Security & Privacy</h2>
+            <div class="setting">
+                 <input type="checkbox" id="enable-two-factor">
+                 <label for="enable-two-factor">Enable Two-Factor Authentication</label>
+                 <p>Enhance your security by enabling two-factor authentication</p>
+            </div>
+            <div class="setting">
+                <input type="checkbox" id="anonymous-browsing">
+                <label for="ananymous-browsing">Anonymous Browsing</label>
+                <p>Browse the internet privately with anonymous browsing mode.</p>
+            </div>
+        </section>
+
+        <section id="game-settings">
+            <h2>Game settings</h2>
+            <div class="setting">
+                <input type="checkbox" id="enable-sound">
+                <label for="enable-sound">Enable Sound</label>
+                <p>Turn on/off the sound effects while playing games.</p>
+            </div>
+            <div class="setting">
+                <input type="checkbox" id="notifications">
+                <label for="notifications">Receive Game Notifications</label>
+                <p>Get notified about game updates and events.</p>
+            </div>
+        </section>
+
+        <Section class="system-settings">
+            <h2>System Settings</h2>
+            <div class="setting">
+                <input type="radio" name="theme" value="light" id="light-theme">
+                <label for="light-theme">Light Mode</label>
+                <p>Switch to a bright theme for comfortable reading experience.</p>
+            </div>
+            <div class="setting">
+                <input type="radio" name="theme" value="dark" id="dark-theme">
+                <label for="dark-theme">Dark Mode</label>
+                <P>Reduce eye strain with a dark theme in low-light environments.</P>
+            </div>
+            <div class="settings">
+                <input type="checkbox" id="wifi">
+                <label for="wifi">Wi-Fi</label>
+                <p>Connect to available Wi-Fi networks for internet access.</p>
+            </div>
+            <div class="setting">
+                <input type="checkbox" id="screen-time">
+                <label for="screen-time">Screen Time Limits</label>
+                <p>Set time limits to manage and contro screen time.</p>
+            </div>
+        </Section>
+
+    </main>
+    <footer>
+        <p>&copy; 2023 Lash Settings App. All rights reserved.</p>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
